@@ -4,11 +4,10 @@
 //  NOTICE: You are permitted to use, modify, and distribute this file
 //  in accordance with the terms of the license agreement accompanying it.
 // ------------------------------------------------------------------------------
-import {injectable} from "inversify";
-import {IEventDispatcher} from "robotlegs";
-import {Mediator} from "robotlegs-pixi";
+import {injectable, IEventDispatcher} from "@robotlegsjs/core";
+import {Mediator} from "@robotlegsjs/pixi";
+import {ISignal} from "@robotlegsjs/signals";
 import {ISignalMap} from "../api/ISignalMap";
-import {ISignal} from "signals.js";
 import {SignalMap} from "./SignalMap";
 
 /**
